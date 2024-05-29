@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EcoSmart Water Bottle</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        color: #333;
+      }
+      .hero {
+        background: url("Img/eco bottle.jpg") no-repeat center center/cover;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-align: center;
+      }
+      .hero h1 {
+        font-size: 4rem;
+      }
+      .product-showcase,
+      .testimonials,
+      .pricing,
+      .contact {
+        padding: 4rem 0;
+      }
+      .product-showcase h2,
+      .testimonials h2,
+      .pricing h2,
+      .contact h2 {
+        font-size: 3rem;
+      }
+      .product-showcase img {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+      }
+      .testimonials .card {
+        border: none;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      .testimonials .card .row {
+        height: 100%;
+      }
+      .testimonials .card .col-md-8 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      footer {
+        background: #333;
+        color: white;
+        padding: 1rem 0;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      footer .social-icons {
+        display: flex;
+        align-items: center;
+      }
+      footer .social-icons a {
+        margin: 0 8px;
+      }
+      footer img {
+        width: 24px;
+        height: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <h1>EcoSmart Water Bottle</h1>
+        <p>Stay Hydrated, Stay Green</p>
+        <a href="#product-showcase" class="btn btn-primary">Learn More</a>
+      </div>
+    </section>
+
+    <!-- Product Showcase -->
+    <section id="product-showcase" class="product-showcase">
+      <div class="container">
+        <h2>Product Features</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <img
+              src="Img/filtration system.jpg"
+              class="img-fluid"
+              alt="Filtration System"
+            />
+            <h3>Advanced Filtration</h3>
+            <p>Ensures you always have clean and safe drinking water.</p>
+          </div>
+          <div class="col-md-4">
+            <img
+              src="Img/Temperature control.jpg"
+              class="img-fluid"
+              alt="Temperature Control"
+            />
+            <h3>Temperature Control</h3>
+            <p>Keep your drink at the perfect temperature for hours.</p>
+          </div>
+          <div class="col-md-4">
+            <img
+              src="Img/hydration Tracking.jpg"
+              class="img-fluid"
+              alt="Hydration Tracking"
+            />
+            <h3>Hydration Tracking</h3>
+            <p>Monitor your hydration levels with our connected app.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+      <div class="container">
+        <h2>What Our Customers Say</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card mb-4">
+              <div class="row no-gutters h-100">
+                <div class="col-md-4">
+                  <img src="Img/Jane Doe.jpg" class="card-img" alt="Jane Doe" />
+                </div>
+                <div class="col-md-8">
+                  <div
+                    class="card-body d-flex flex-column justify-content-center"
+                  >
+                    <blockquote class="blockquote mb-0">
+                      <p>
+                        "The EcoSmart Water Bottle has changed the way I stay
+                        hydrated. I love the temperature control feature!"
+                      </p>
+                      <footer class="blockquote-footer">Jane Doe</footer>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card mb-4">
+              <div class="row no-gutters h-100">
+                <div class="col-md-4">
+                  <img src="Img/John.jpg" class="card-img" alt="John Smith" />
+                </div>
+                <div class="col-md-8">
+                  <div
+                    class="card-body d-flex flex-column justify-content-center"
+                  >
+                    <blockquote class="blockquote mb-0">
+                      <p>
+                        "I never worry about the quality of my drinking water
+                        anymore. The filtration system is top-notch."
+                      </p>
+                      <footer class="blockquote-footer">John Smith</footer>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Information -->
+    <section class="pricing">
+      <div class="container">
+        <h2>Pricing Plans</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body text-center">
+                <h3 class="card-title">Basic</h3>
+                <p class="card-text">$29.99</p>
+                <a href="#" class="btn btn-primary">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card bg-secondary">
+              <div class="card-body text-center">
+                <h3 class="card-title">Standard</h3>
+                <p class="card-text">$39.99</p>
+                <a href="#" class="btn btn-primary">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card bg-secondary">
+              <div class="card-body text-center">
+                <h3 class="card-title">Premium</h3>
+                <p class="card-text">$49.99</p>
+                <a href="#" class="btn btn-primary">Buy Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              placeholder="Your Name"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="Your Email"
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              class="form-control"
+              id="message"
+              rows="4"
+              placeholder="Your Message"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container d-flex justify-content-between align-items-center">
+        <p>&copy; 2024 EcoSmart Water Bottle. All rights reserved.</p>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/"
+            ><img src="Img/facebook.png" alt="Facebook"
+          /></a>
+          <a href="https://x.com/i/flow/login"
+            ><img src="Img/twitter-logo.png" alt="Twitter"
+          /></a>
+          <a href="https://www.instagram.com/accounts/login/"
+            ><img src="Img/instagram.png" alt="Instagram"
+          /></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
